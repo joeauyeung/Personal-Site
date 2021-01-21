@@ -1,0 +1,82 @@
+body {
+    font-family: 'Montserrat';
+    margin: 0 0 0 0;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.colored-section {
+    background-color: #BBE4F2;
+}
+
+/* Nav Bar */
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 1.5rem;
+    /* color: #fff; */
+}
+
+/* Title Page */
+
+.title-page {
+    padding-top: 7%;
+    padding-bottom: 3%;
+
+}
+
+.headshot {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin:  auto;
+    border-radius: 100%;
+}
+
+.intro {
+    font-family: "Permanent Marker";
+    text-align: center;
+    font-size: 5rem;
+    color: #fff;
+    padding-bottom: 2%;
+}
+
+.intro-text {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Skills */
+
+.row {
+    text-align: center;
+    font-size: 2rem;
+    padding: 5%;
+}
+
+.skill-icon {
+    color: #FE4A49;
+}
+
+/* Projects */
+
+.colored-section h2 {
+    color: #fff;
+}
+
+.project-desc {
+    font-size: 1.5rem;
+}
