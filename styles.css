@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat';
-    margin: 0 0 0 0;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -32,26 +33,29 @@ h2 {
 
 /* Title Page */
 
+#title {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.intro-image {
+    width: 100%;
+    filter: grayscale(70%);
+    position: relative;
+}
 .title-page {
     padding-top: 7%;
     padding-bottom: 3%;
 
 }
 
-.headshot {
-    width: 10%;
-    height: auto;
-    display: block;
-    margin:  auto;
-    border-radius: 100%;
-}
 
 .intro {
     font-family: "Permanent Marker";
     text-align: center;
+    z-index: 1;
     font-size: 5rem;
     color: #fff;
-    padding-bottom: 2%;
 }
 
 .intro-text {
