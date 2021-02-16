@@ -7,14 +7,15 @@ body {
 h2 {
     font-size: 3rem;
     text-align: center;
-    padding-top: 1%;
+    padding: 2%;
 }
 
-.colored-section {
-    background-color: #BBE4F2;
-}
 
 /* Nav Bar */
+nav {
+    background-color: #0D3644;
+}
+
 .navbar-brand {
     font-weight: 600;
     font-size: 1.5rem;
@@ -29,15 +30,16 @@ h2 {
 .nav-link {
     font-weight: 400;
     font-size: 1.5rem;
-    /* color: #fff; */
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: #fff;
 }
 
 /* Title Page */
 
 #title {
-    /* width: 100%;
-    padding: 0;
-    margin: 0; */
     background: linear-gradient(
                     rgba(0,0,0,0.5),
                     rgba(0,0,0,0.5)
@@ -55,14 +57,13 @@ h2 {
 
 }
 
-
 .intro {
     font-family: "Permanent Marker";
     text-align: center;
     z-index: 1;
     font-size: 5rem;
     color: #fff;
-    padding-top: 30%;
+    padding-top: 20%;
 }
 
 .intro-text {
@@ -70,16 +71,40 @@ h2 {
     font-size: 3rem;
 }
 
+/* Bio */
+
+#bio {
+    padding: 5%;
+    background-color: #93b7be;
+}
+
+#bio h2 {
+    color: #fff;
+}
+
+#bio p {
+    color: #fff;
+
+}
+
 /* Skills */
+
+#skills h2 {
+    color: #040F0F;
+}
+
+#skills p {
+    color: #8c9a9e;
+    padding: 5%;
+}
 
 .row {
     text-align: center;
     font-size: 2rem;
-    padding: 5%;
 }
 
 .skill-icon {
-    color: #FE4A49;
+    color: #FF674D;
 }
 
 /* Projects */
