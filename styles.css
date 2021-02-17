@@ -10,6 +10,10 @@ h2 {
     padding: 2%;
 }
 
+section {
+    padding: 5%;
+}
+
 
 /* Nav Bar */
 nav {
@@ -74,7 +78,6 @@ nav {
 /* Bio */
 
 #bio {
-    padding: 5%;
     background-color: #6698A3;
 }
 
@@ -111,7 +114,6 @@ nav {
 
 #projects {
     background-color: #6698A3;
-    padding: 5%;
 }
 
 .colored-section h2 {
