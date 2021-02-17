@@ -75,7 +75,7 @@ nav {
 
 #bio {
     padding: 5%;
-    background-color: #93b7be;
+    background-color: #6698A3;
 }
 
 #bio h2 {
@@ -94,7 +94,7 @@ nav {
 }
 
 #skills p {
-    color: #8c9a9e;
+    color: #7B8A8E;
     padding: 5%;
 }
 
@@ -110,7 +110,8 @@ nav {
 /* Projects */
 
 #projects {
-    background-color: #93B7BE;
+    background-color: #6698A3;
+    padding: 5%;
 }
 
 .colored-section h2 {
