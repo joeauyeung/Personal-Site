@@ -7,11 +7,11 @@ body {
 h2 {
     font-size: 3rem;
     text-align: center;
-    padding: 2%;
+    padding-bottom: 3%;
 }
 
 section {
-    padding: 5%;
+    padding: 3%;
 }
 
 
@@ -87,6 +87,7 @@ nav {
 
 #bio p {
     color: #fff;
+    padding-left: 5%;
 
 }
 
@@ -123,7 +124,7 @@ nav {
     background-color: #6698A3;
 }
 
-.colored-section h2 {
+#projects h2 {
     color: #fff;
 }
 
