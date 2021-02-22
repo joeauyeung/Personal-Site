@@ -131,3 +131,24 @@ nav {
 .project-desc {
     font-size: 1.5rem;
 }
+
+/* Contact */
+
+#contact {
+    background: linear-gradient(
+                    rgba(0,0,0,0.5),
+                    rgba(0,0,0,0.5)
+    ),
+    url("images/contact-background.jpg");
+    background-size: cover;
+    height: 50rem;
+    background-repeat: no-repeat;
+}
+
+#contact h1 {
+    color: #fff;
+    text-align: right;
+    position: relative;
+    top: 30%;
+    font-size: 3.5vw;
+}
