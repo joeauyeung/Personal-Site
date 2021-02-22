@@ -5,7 +5,7 @@ body {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 3vw;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -50,7 +50,7 @@ nav {
     ),
     url("images/Alumni_Heading.jpg");
     background-size: cover;
-    height: 50rem;
+    height: 50vw;
     background-repeat: no-repeat;
     background-position: center top;
 }
@@ -68,11 +68,6 @@ nav {
     font-size: 5rem;
     color: #fff;
     padding-top: 20%;
-}
-
-.intro-text {
-    text-align: center;
-    font-size: 3rem;
 }
 
 /* Bio */
@@ -111,7 +106,7 @@ nav {
 
 .row {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 .skill-icon {
@@ -129,7 +124,7 @@ nav {
 }
 
 .project-desc {
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }
 
 /* Contact */
@@ -151,4 +146,11 @@ nav {
     position: relative;
     top: 30%;
     font-size: 3.5vw;
+}
+
+.fa-linkedin {
+    color: #fff;
+    position: relative;
+    left: 70%;
+    
 }
