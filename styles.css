@@ -123,6 +123,10 @@ nav {
     color: #fff;
 }
 
+.card-title {
+    font-size: 1.75vw;
+}
+
 .project-desc {
     font-size: 1.5vw;
 }
@@ -148,9 +152,10 @@ nav {
     font-size: 3.5vw;
 }
 
-.fa-linkedin {
+.contact-icon {
     color: #fff;
     position: relative;
     left: 70%;
     top: 32%;
+    padding: 2%;
 }
