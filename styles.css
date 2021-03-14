@@ -14,9 +14,8 @@ section {
     padding: 3%;
 }
 
-
 /* Nav Bar */
-nav {
+.navbar {
     background-color: #0D3644;
 }
 
@@ -88,13 +87,6 @@ nav {
 
 #bio-row {
     align-items: center;
-}
-
-@media screen and (max-width: 991.98px) {
-    #headshot-container {
-        max-width: 300px;
-        margin-bottom: 20px;
-    }
 }
 
 
@@ -170,4 +162,28 @@ nav {
     left: 70%;
     top: 32%;
     padding: 2%;
+}
+
+/* Mobile CSS */
+
+@media screen and (max-width: 991.98px) {
+    #headshot-container {
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .navbar {
+        width: 100vw;
+    }
+
+    .intro {
+        font-size: 2rem;
+    }
+
+    #headshot-container {
+        max-width: 150px;
+        margin-bottom: 20px;
+    }
 }
