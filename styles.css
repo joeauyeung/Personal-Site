@@ -168,16 +168,26 @@ section {
 /* Mobile CSS */
 
 @media screen and (max-width: 991.98px) {
+    .navbar {
+        width: 99.9vw;
+    }
+    
     #headshot-container {
         max-width: 300px;
         margin-bottom: 20px;
     }
+
+    .contact-icon {
+        color: #fff;
+        /* position: relative;
+        left: 70%;
+        top: 32%;
+        padding: 2%; */
+    }
 }
 
 @media screen and (max-width: 575.98px) {
-    .navbar {
-        width: 99.9vw;
-    }
+
 
     .navbar-brand {
         font-size: 1rem;
@@ -206,3 +216,8 @@ section {
     }
 }
 
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
